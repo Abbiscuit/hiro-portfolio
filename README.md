@@ -1,10 +1,10 @@
-# portfolio-with-nuxt
+# Hiro's Portfolio
 
-> My delightful Nuxt.js project
+> Nuxt を使ってポートフォリオを作成してみました。
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install
 
