@@ -1,13 +1,11 @@
 import pkg from './package';
 
-const routerBase =
-  process.env.DEPLOY_ENV === 'GH_PAGES'
-    ? {
-        router: {
-          base: '/my-portfolio/'
-        }
-      }
-    : {};
+// const routerBase =
+//   process.env.DEPLOY_ENV === 'GH_PAGES'
+//     ? {
+
+//       }
+//     : {};
 
 export default {
   mode: 'universal',
@@ -30,8 +28,9 @@ export default {
       }
     ]
   },
-
-  routerBase,
+  router: {
+    base: '/my-portfolio/'
+  },
 
   /*
    ** Customize the progress-bar color
