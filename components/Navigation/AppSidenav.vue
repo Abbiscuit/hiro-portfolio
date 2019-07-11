@@ -5,13 +5,13 @@
       <div v-if="show" class="sidenav">
         <ul class="nav-list" @click="$emit('close')">
           <li class="nav-item">
-            <nuxt-link to="/contact">Contact</nuxt-link>
-          </li>
-          <li class="nav-item">
             <nuxt-link to="/about">About</nuxt-link>
           </li>
           <li class="nav-item">
             <nuxt-link to="/services">Services</nuxt-link>
+          </li>
+          <li class="nav-item">
+            <nuxt-link to="/contact">Contact</nuxt-link>
           </li>
         </ul>
       </div>
