@@ -1,12 +1,5 @@
 import pkg from './package';
 
-// const routerBase =
-//   process.env.DEPLOY_ENV === 'GH_PAGES'
-//     ? {
-
-//       }
-//     : {};
-
 export default {
   mode: 'universal',
 
@@ -20,7 +13,11 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/my-portfolio/favicon.ico' },
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/hiro-portfolio/favicon.ico'
+      },
       {
         rel: 'stylesheet',
         href:
@@ -28,8 +25,9 @@ export default {
       }
     ]
   },
+  // Mute this in development
   router: {
-    base: '/my-portfolio/'
+    base: '/hiro-portfolio/'
   },
 
   /*
