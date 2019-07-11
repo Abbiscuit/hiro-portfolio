@@ -1,23 +1,30 @@
 <template>
   <div>
-    <Nav />
+    <AppHeader @sidenavToggle="displaySidenav= !displaySidenav" />
+    <AppSidenav :show="displaySidenav" @close="displaySidenav = false" />
     <nuxt />
   </div>
 </template>
 
 <script>
-import Nav from "./partials/nav";
-
+import AppHeader from "@/components/Navigation/AppHeader";
+import AppSidenav from "@/components/Navigation/AppSidenav";
 export default {
   components: {
-    Nav
+    AppHeader,
+    AppSidenav
+  },
+  data() {
+    return {
+      displaySidenav: false
+    };
   }
 };
 </script>
 
 
 <style>
-html {
+/* html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
@@ -63,5 +70,5 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
-}
+} */
 </style>
