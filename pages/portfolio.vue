@@ -2,7 +2,6 @@
   <section>
     <h1>Portfolio</h1>
     <p class="subheading">作品集 （随時追加）</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
   </section>
 </template>
 
