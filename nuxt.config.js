@@ -4,7 +4,7 @@ const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
         router: {
-          base: '/portfolio/'
+          base: '/my-portfolio/'
         }
       }
     : {};
@@ -22,7 +22,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/portfolio/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/my-portfolio/favicon.ico' },
       {
         rel: 'stylesheet',
         href:
