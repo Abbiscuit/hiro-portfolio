@@ -1,7 +1,7 @@
 <template>
   <section>
-    <h1>Services</h1>
-    <p class="subheading">Nuxt nuxt nuxt</p>
+    <h1>Portfolio</h1>
+    <p class="subheading">作品集 （随時追加）</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
   </section>
 </template>
@@ -11,7 +11,7 @@ export default {
   components: {},
   head() {
     return {
-      title: "Services | Portfolio",
+      title: "Portfolio | Portfolio",
       meta: [
         { name: "description", content: "ポートフォリオです" },
         { name: "keywords", content: "portfolio, nuxt, ポートフォリオ" }

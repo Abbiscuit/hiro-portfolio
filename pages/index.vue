@@ -1,10 +1,20 @@
 <template>
   <section>
-    <h1>Lorem ipsum dolor sit amet.</h1>
-    <p class="subheading">Nuxt nuxt nuxt</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <h1>
+      Welcome to the portfolio of
+      <span>Hiro</span>
+    </h1>
+    <p class="subheading">I'm into Front-end Web development now!</p>
+    <p class="content">
+      Hiroです！
+      <br />現在、フロントエンドエンジニアとしての転職を目指しプログラミング学習をしています。
+      <br />おもにJavaScriptやReactに力を入れています。
+    </p>
     <p>
-      <nuxt-link to="/services">ポートフォリオはこちら</nuxt-link>
+      <nuxt-link to="/about">自己紹介</nuxt-link>
+    </p>
+    <p>
+      <nuxt-link to="/portfolio">ポートフォリオはこちら</nuxt-link>
     </p>
   </section>
 </template>
@@ -36,4 +46,11 @@ a {
 a:hover {
   opacity: 0.8;
 }
+
+/* span {
+  display: inline;
+  background: rgb(252, 101, 81);
+  padding: 3px;
+  font-family: "Sacramento";
+} */
 </style>

@@ -4,7 +4,7 @@ body {
 }
 
 section {
-  padding: 5em;
+  padding: 6em;
 }
 
 h1 {
@@ -14,16 +14,16 @@ h1 {
 
 .subheading {
   font-size: 1.5em;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
   text-transform: uppercase;
   color: rgb(179, 179, 179);
-  font-weight: bold;
-  line-height: 1.8;
+  font-weight: lighter;
+  line-height: 1.4;
 }
 
 p {
   font-size: 1.2em;
-  line-height: 1.4em;
+  line-height: 1.8em;
 }
 
 .page-enter-active,
@@ -33,4 +33,10 @@ p {
 .page-enter,
 .page-leave-active {
   opacity: 0;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 2em;
+  }
 }
