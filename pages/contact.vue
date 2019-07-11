@@ -4,9 +4,7 @@
     <p class="subheading">ご連絡について</p>
     <p>ご興味を持っていただけましたら、ぜひご連絡をお願いします！！</p>
     <p>Twtter DM</p>
-    <p>
-      <a href="mailto:litm.yolo@gmail.com">litm.yolo@gmail.com</a>
-    </p>
+    <p class="email">litm.yolo@gmail.com</p>
   </section>
 </template>
 
@@ -25,5 +23,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.email {
+  text-decoration: underline;
+}
 </style>
